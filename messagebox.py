@@ -43,6 +43,8 @@ while True:
             title = input("What will be the title be? ")
             message = input("What will the message be? ")
             messagebox.askyesnocancel(title, message)
+        else:
+            print("Number out of range.")
     except:
         print("Invalid number.")
     
